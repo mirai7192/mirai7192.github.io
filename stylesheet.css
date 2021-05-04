@@ -7,3 +7,10 @@
 img {
     max-width :100% ;
 }
+
+a{
+    background-color: #f00;
+    display: inline-block;
+    width: 100px;
+    height: 300px;
+}
