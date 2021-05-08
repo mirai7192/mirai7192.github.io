@@ -21,10 +21,13 @@ img {
   border        : 2px solid #000066;    /* 枠の指定 */
   width: 300px;
   height: 300px;
+  line-height : 300px ;
   text-decoration: none;  /*下線削除*/
 }
 
 .button:hover {
   color         : #000066;     /* 背景色     */
   background    : #ffffff;     /* 文字色     */
+  display: inline-block;
+  vertical-align: middle;
 }
