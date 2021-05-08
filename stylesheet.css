@@ -27,8 +27,8 @@ img {
 }
 
 .button:hover {
-  color         : white;     /* 背景色     */
-  background    : orange;     /* 文字色     */
+  color         : orange;     /* 文字色     */
+  background    : white;     /* 色     */
 }
 
 .button:a{
