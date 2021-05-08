@@ -30,7 +30,7 @@ img {
   text-decoration: none;  /*下線削除*/
   position: relative;
   letter-spacing:normal; /* やや重要 */
-  margin-left:3%;
+  margin:3%;
 }
 
 .button:hover {
