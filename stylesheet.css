@@ -8,6 +8,11 @@ img {
     max-width :100% ;
 }
 
+#button-wrapper {
+  letter-spacing:-4px; /* やや重要 */
+  text-align:center; /* 重要 */
+}
+
 .button {
   display       : inline-block;
   font-size     : 30pt;        /* 文字サイズ */
@@ -24,6 +29,7 @@ img {
   line-height : 200px ;
   text-decoration: none;  /*下線削除*/
   position: relative;
+  letter-spacing:normal; /* やや重要 */
 }
 
 .button:hover {
