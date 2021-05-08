@@ -19,9 +19,9 @@ img {
   /*line-height   : 1em;         /* 1行の高さ  */
   transition    : .3s;         /* なめらか変化 */
   border        : 2px solid #000066;    /* 枠の指定 */
-  width: 300px;
-  height: 300px;
-  line-height : 300px ;
+  width: 200px;
+  height: 200px;
+  line-height : 200px ;
   text-decoration: none;  /*下線削除*/
 }
 
