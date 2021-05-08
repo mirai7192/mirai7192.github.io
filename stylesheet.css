@@ -23,11 +23,21 @@ img {
   height: 200px;
   line-height : 200px ;
   text-decoration: none;  /*下線削除*/
+  position: relative;
+  /*background: orange;*/
 }
 
 .button:hover {
   color         : #000066;     /* 背景色     */
   background    : #ffffff;     /* 文字色     */
-  display: inline-block;
-  vertical-align: middle;
+}
+
+.button:a{
+position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform : translate(-50%,-50%);
+  transform : translate(-50%,-50%);
+  width: 100px;
+  text-align: center;/*一応BOX内の文字も中央寄せ*/
 }
