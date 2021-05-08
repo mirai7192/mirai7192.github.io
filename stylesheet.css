@@ -30,6 +30,7 @@ img {
   text-decoration: none;  /*下線削除*/
   position: relative;
   letter-spacing:normal; /* やや重要 */
+  margin-left:3%;
 }
 
 .button:hover {
@@ -47,6 +48,6 @@ img {
   text-align: center;/*一応BOX内の文字も中央寄せ*/
 }
 
-.button:nth-child() {
+/*.button:nth-child() {
   margin-left:3%;
-}
+}*/
