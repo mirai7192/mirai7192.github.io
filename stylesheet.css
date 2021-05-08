@@ -46,3 +46,8 @@ img {
   width: 100px;
   text-align: center;/*一応BOX内の文字も中央寄せ*/
 }
+
+.button:nth-child(even) {
+  background:blue;
+  margin-left:3%;
+}
