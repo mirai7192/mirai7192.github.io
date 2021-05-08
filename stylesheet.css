@@ -14,8 +14,8 @@ img {
   text-align    : center;      /* 文字位置   */
   cursor        : pointer;     /* カーソル   */
   padding       : 40px 40px;   /* 余白       */
-  background    : #000066;     /* 背景色     */
-  color         : #ffffff;     /* 文字色     */
+  background    : orange;     /* 背景色     */
+  color         : white;     /* 文字色     */
   /*line-height   : 1em;         /* 1行の高さ  */
   transition    : .3s;         /* なめらか変化 */
   border        : 2px solid #000066;    /* 枠の指定 */
@@ -24,12 +24,11 @@ img {
   line-height : 200px ;
   text-decoration: none;  /*下線削除*/
   position: relative;
-  /*background: orange;*/
 }
 
 .button:hover {
   color         : #000066;     /* 背景色     */
-  background    : #ffffff;     /* 文字色     */
+  background    : orange;     /* 文字色     */
 }
 
 .button:a{
