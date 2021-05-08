@@ -18,7 +18,7 @@ img {
   color         : white;     /* 文字色     */
   /*line-height   : 1em;         /* 1行の高さ  */
   transition    : .3s;         /* なめらか変化 */
-  border        : 2px solid #000066;    /* 枠の指定 */
+  border        : 2px solid orange;    /* 枠の指定 */
   width: 200px;
   height: 200px;
   line-height : 200px ;
@@ -27,8 +27,8 @@ img {
 }
 
 .button:hover {
-  color         : #000066;     /* 背景色     */
-  background    : orange;     /* 文字色     */
+  color         : orange;     /* 背景色     */
+  background    : white;     /* 文字色     */
 }
 
 .button:a{
