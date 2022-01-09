@@ -25,17 +25,19 @@
 
 /*ボタンホバー時*/
 .hidden_box label:hover {
+	content: '\f077';
     background: silver;
 }
 
 /*アイコンを切り替え*/
 .hidden_box input:checked ~ label:before {
-     content: '\f077';
-    -webkit-transform: scale(1,-1);
+	content: '\f077';
+	font-family: 'FontAwesome';
+	-webkit-transform: scale(1,-1);
 	-moz-transform: scale(1,-1);
-    transform: scale(1,-1);
+	transform: scale(1,-1);
 	border-bottom:none;
-    color: #668ad8;
+	color: #668ad8;
 }
 
 /*チェックは見えなくする*/
