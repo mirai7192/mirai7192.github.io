@@ -29,7 +29,7 @@
 }
 
 /*アイコンを切り替え*/
-.hidden_box input:checked ~ label001:before {
+.hidden_box  {
      content: '\f077';
      transform: rotate(360deg);
      color: #668ad8;
