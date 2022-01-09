@@ -31,7 +31,6 @@
 /*アイコンを切り替え*/
 .hidden_box label001:active {
      content: '\f077';
-     transform: rotate(360deg);
      color: #668ad8;
 }
 
