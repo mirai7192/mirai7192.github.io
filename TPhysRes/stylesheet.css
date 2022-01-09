@@ -31,7 +31,6 @@
 /*アイコンを切り替え*/
 .hidden_box input:checked ~ label:before {
      content: '\f077';
-     -webkit-transform: rotate(360deg);
      transform: rotate(360deg);
      color: #668ad8;
 }
