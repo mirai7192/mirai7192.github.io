@@ -5,7 +5,7 @@
 }
 
 /*ボタン装飾*/
-.hidden_box label {
+.hidden_box label001 {
     padding: 15px;
     font-weight: bold;
     background: #efefef;
@@ -15,7 +15,7 @@
 }
 
 /*アイコンを表示*/
-.hidden_box label:before {
+.hidden_box label001:before {
     display: inline-block;
     content: '\f078';
     font-family: 'FontAwesome';
@@ -24,12 +24,12 @@
 }
 
 /*ボタンホバー時*/
-.hidden_box label:hover {
+.hidden_box label001:hover {
     background: silver;
 }
 
 /*アイコンを切り替え*/
-.hidden_box label:active{
+.hidden_box input:checked ~ label001:before {
      content: '\f077';
      transform: rotate(360deg);
      color: #668ad8;
