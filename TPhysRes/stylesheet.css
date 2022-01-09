@@ -25,7 +25,7 @@
 
 /*ボタンホバー時*/
 .hidden_box label:hover {
-	content: '\f077';
+	content: '\f078';
     background: silver;
 }
 
