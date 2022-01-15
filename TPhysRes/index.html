@@ -6,6 +6,21 @@
         <link rel="stylesheet" href="stylesheet.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
         <script src="https://kit.fontawesome.com/81823740eb.js" crossorigin="anonymous"></script>
+        <script type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    TeX: { equationNumbers: { autoNumber: "AMS" }},
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    },
+    "HTML-CSS": { matchFontHeight: false },
+    displayAlign: "left",
+    displayIndent: "2em"
+  });
+    </script>
     </head>
     <body>
         <div class="header">
@@ -26,6 +41,7 @@
             <h4>会員募集について</h4>
             <a href="./理論物理学研究会会員の募集.pdf" class="button">理論物理学研究会会員の募集</a>
             <h4>文献リスト</h4>
+            
             <div class="hidden_box">
                 <label for="label">第一回:Ostrogradskyの定理</label>
                 <input type="checkbox" id="label"/>
@@ -41,6 +57,26 @@
                 </ol>
             </div>
             </div>
+            
+            <div class="hidden_box">
+                <label for="label">第二回:WZW項</label>
+                <input type="checkbox" id="label"/>
+            <div class="hidden_show">
+                <h5>参考文献</h5>
+                <ol> 
+                    <li>S.Weinberg "The Quantum Theory of Fields 2" 19.8</li>
+                    <li>ワインバーグ "場の量子論3巻" 19章8節</li>
+                </ol>
+                <h5>関連文献</h5>
+                <ol>
+                    <li>M.Nakahara "Geometry, Topology and Physics" Ch.4</li>
+                    <li>中原 "理論物理学のための幾何学とトポロジー 1" 第四章</li>
+                    <li><a href="http://math.shinshu-u.ac.jp/~kgomi/papers/mickelsson.pdf">K.Gomi "Mickelsson’s twisted K-theory invariant and its generalizations"</a></li>
+                    <li><a href="https://journals.aps.org/pr/abstract/10.1103/PhysRev.183.1245">R.Dashen "Chiral $SU(3)\otimes SU(3)$ as a Symmetry of the Strong Interactions"</a></li>
+                </ol>
+            </div>
+            </div>
+
 
         </div>
     </body>
